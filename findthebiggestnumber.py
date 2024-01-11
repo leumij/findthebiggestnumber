@@ -49,3 +49,5 @@ label_three.grid(row=2, column=0, padx=10, pady=10, sticky=tk.E)
 entry_three = tk.Entry(root, font=("Arial", 12), relief=tk.FLAT, bd=2)
 entry_three.grid(row=2, column=1, padx=10, pady=10)
 
+find_button = tk.Button(root, text="Find Greatest", command=find_greatest, font=("Arial", 12), bg="#4CAF50", fg="white", relief=tk.FLAT)
+find_button.grid(row=3, column=0, columnspan=2, pady=10)
