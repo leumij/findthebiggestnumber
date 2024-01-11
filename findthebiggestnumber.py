@@ -37,3 +37,8 @@ label_one.grid(row=0, column=0, padx=10, pady=10, sticky=tk.E)
 entry_one = tk.Entry(root, font=("Arial", 12), relief=tk.FLAT, bd=2)
 entry_one.grid(row=0, column=1, padx=10, pady=10)
 
+label_two = tk.Label(root, text="Enter your Second Number:", bg="#F2F2F2", font=("Arial", 12))
+label_two.grid(row=1, column=0, padx=10, pady=10, sticky=tk.E)
+
+entry_two = tk.Entry(root, font=("Arial", 12), relief=tk.FLAT, bd=2)
+entry_two.grid(row=1, column=1, padx=10, pady=10)
