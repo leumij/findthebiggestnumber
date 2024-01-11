@@ -7,13 +7,17 @@ app = Flask(__name__)
 # pseudocode
 
 # ask user 3 number for input
-@app.route('/', methods=['GET', 'POST'])
+
+@app.route('/')
 def index():
-    if request.method == 'POST':
-        print("Enter 3 number and let's determine the greatest among the three")
-        number_one = int(input("Enter your First Number: "))
-        number_two = int(input("Enter your Second Number: "))
-        number_three = int(input("Enter your Third Number: "))
+    return render_template('index.html')
+
+
+@app.route('/find_greatest', methods=['POST'])
+def find_greatest():
+        number_one = int(request.form[''])
+        number_two = int(request.form[''])
+        number_three = int(request.form[''])
                 
 # find the biggest number
         if number_one > number_two and number_one > number_three:
