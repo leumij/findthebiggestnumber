@@ -15,4 +15,7 @@ if number_one > number_two and number_one > number_three:
 elif number_two > number_one and number_two > number_three:
     print("Number two is the largest number, which is number" , number_two)
 
+else:
+    print("Number three is the largest number, which is number" , number_three)
+
 # print the biggest number
