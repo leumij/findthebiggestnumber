@@ -51,3 +51,9 @@ entry_three.grid(row=2, column=1, padx=10, pady=10)
 
 find_button = tk.Button(root, text="Find Greatest", command=find_greatest, font=("Arial", 12), bg="#4CAF50", fg="white", relief=tk.FLAT)
 find_button.grid(row=3, column=0, columnspan=2, pady=10)
+
+result_label = tk.Label(root, text="", bg="#F2F2F2", font=("Arial", 12))
+result_label.grid(row=4, column=0, columnspan=2, pady=10)
+
+# Start the main event loop
+root.mainloop()
