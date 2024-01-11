@@ -42,3 +42,10 @@ label_two.grid(row=1, column=0, padx=10, pady=10, sticky=tk.E)
 
 entry_two = tk.Entry(root, font=("Arial", 12), relief=tk.FLAT, bd=2)
 entry_two.grid(row=1, column=1, padx=10, pady=10)
+
+label_three = tk.Label(root, text="Enter your Third Number:", bg="#F2F2F2", font=("Arial", 12))
+label_three.grid(row=2, column=0, padx=10, pady=10, sticky=tk.E)
+
+entry_three = tk.Entry(root, font=("Arial", 12), relief=tk.FLAT, bd=2)
+entry_three.grid(row=2, column=1, padx=10, pady=10)
+
