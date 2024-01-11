@@ -10,12 +10,13 @@ number_three = int(input("Enter your Third Number: "))
 
 # find the biggest number
 if number_one > number_two and number_one > number_three:
-    print("Number one largest number, which is number" , number_one)
+    greatest = number_one
 
 elif number_two > number_one and number_two > number_three:
-    print("Number two is the largest number, which is number" , number_two)
+    greatest = number_two
 
 else:
-    print("Number three is the largest number, which is number" , number_three)
+     greatest = number_three
 
 # print the biggest number
+print("The greatest among the numbers you have entered {},{} and {} is number{}" .format(number_one,number_two,number_three, greatest))
